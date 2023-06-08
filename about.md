@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About PirateSec"
+title: "About this Project"
 ---
 
 The PirateSec theme was designed for the <a href="https://piratesec.org/">Pensacola State College Cyber Defense Club</a> and was largely inspired by retro terminals and Seapunk aesthetics.

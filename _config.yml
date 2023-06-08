@@ -3,7 +3,7 @@ url: 'https://AV-CompSci-Mage.github.io/'
 baseurl: ''
 permalink: /:title/
 
-title: 'Battleship'
+title: 'AWS Battleship Project'
 description: 'A website documenting our LAB 6 project.'
 
 # build
