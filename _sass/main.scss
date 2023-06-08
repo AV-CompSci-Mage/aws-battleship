@@ -143,7 +143,7 @@ body {
   text-shadow:
     0.50px 0.50px 0.01rem var(--blue-shift),
     -0.50px -0.50px 0.01rem var(--red-shift);
-  background: linear-gradient(rgb(191, 225, 223),rgb(145, 201, 197),rgb(72, 130, 169));
+  background: var(--background-color);
   overscroll-behavior: none;
 }
 
