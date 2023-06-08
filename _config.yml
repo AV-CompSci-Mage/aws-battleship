@@ -1,0 +1,19 @@
+# SITE
+url: 'https://dpstrange.github.io/jekyll-piratesec'
+baseurl: ''
+permalink: /:title/
+
+title: 'PirateSec'
+subtitle: '<a href="https://jekyllrb.com/">#Jekyll</a> <a href="https://www.tumblr.com/search/seapunk">#Seapunk</a> <a href="https://int10h.org/oldschool-pc-fonts/fontlist/#ibmmda">#Terminal</a>'
+description: 'A Seapunk flavored Jekyll theme inspired by retro terminals.'
+
+# build
+highlighter: rouge
+exclude: ['LICENSE', 'README.md']
+
+# theme
+featured-height: 200 # featured image height; options: intiger, default: false (300px)
+
+# pixelate.js - class="pixelate", pixelateAll overides all settings
+pixelate-featured: true # pixelate all header images; options: true, false, default: off false (off)
+pixelate-all: false # pixelate all images; options: true, false, default: false (off)
