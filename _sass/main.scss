@@ -144,6 +144,8 @@ body {
     0.50px 0.50px 0.01rem var(--blue-shift),
     -0.50px -0.50px 0.01rem var(--red-shift);
   background: var(--background-color);
+  background-image: linear-gradient( rgb(180, 211, 209), rgb(145, 201, 197), rgb(92, 128, 192)), ;
+  background-size: 400%;
   overscroll-behavior: none;
 }
 
