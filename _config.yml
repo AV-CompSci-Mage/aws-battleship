@@ -1,9 +1,9 @@
 # SITE
-url: 'https://dpstrange.github.io/jekyll-piratesec'
+url: 'https://AV-CompSci-Mage.github.io/'
 baseurl: ''
 permalink: /:title/
 
-title: 'PirateSec'
+title: 'Battleship'
 subtitle: '<a href="https://jekyllrb.com/">#Jekyll</a> <a href="https://www.tumblr.com/search/seapunk">#Seapunk</a> <a href="https://int10h.org/oldschool-pc-fonts/fontlist/#ibmmda">#Terminal</a>'
 description: 'A Seapunk flavored Jekyll theme inspired by retro terminals.'
 
