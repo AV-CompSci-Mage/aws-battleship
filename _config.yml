@@ -14,5 +14,5 @@ exclude: ['LICENSE', 'README.md']
 featured-height: 200 # featured image height; options: intiger, default: false (300px)
 
 # pixelate.js - class="pixelate", pixelateAll overides all settings
-pixelate-featured: true # pixelate all header images; options: true, false, default: off false (off)
+pixelate-featured: false # pixelate all header images; options: true, false, default: off false (off)
 pixelate-all: false # pixelate all images; options: true, false, default: false (off)
