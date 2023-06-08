@@ -4,7 +4,7 @@
 
 :root {
   --background-color: rgb(145, 201, 197);
-  --foreground-color: rgb(90, 177, 186);
+  --foreground-color: rgb(90, 172, 186);
   --foreground-color-transparent: rgba(104, 186, 169, 0.646);
   --text-color: rgb(222,243,246);
   --link-color: rgb(27, 79, 122);
@@ -138,14 +138,13 @@ html {
 
 body {
   margin: 0;
-  height: 100%;
+  min-height: 100%;
   color: var(--text-color);
   text-shadow:
     0.50px 0.50px 0.01rem var(--blue-shift),
     -0.50px -0.50px 0.01rem var(--red-shift);
   background: var(--background-color);
   background-image: linear-gradient(rgb(220, 235, 234), rgb(145, 201, 197), rgb(92, 128, 192));
-  background-size: 12;
   overscroll-behavior: auto;
 }
 
