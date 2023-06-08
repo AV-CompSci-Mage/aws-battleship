@@ -4,11 +4,11 @@
 
 :root {
   --background-color: rgb(145, 201, 197);
-  --foreground-color: rgb(104, 186, 170);
-  --foreground-color-transparent: rgba(104, 186, 170);
+  --foreground-color: rgb(90, 177, 186);
+  --foreground-color-transparent: rgba(104, 186, 169, 0.646);
   --text-color: rgb(222,243,246);
-  --link-color: rgb(6, 66, 115);
-  --link-color-transparent: rgba(6, 66, 115, 0.475);
+  --link-color: rgb(27, 79, 122);
+  --link-color-transparent: rgba(27, 79, 122, 0.475);
   --success-color: rgb(29,162,216);
   --info-color: rgb(233, 227, 142);
   --warn-color: rgb(238, 176, 62);
@@ -144,9 +144,9 @@ body {
     0.50px 0.50px 0.01rem var(--blue-shift),
     -0.50px -0.50px 0.01rem var(--red-shift);
   background: var(--background-color);
-  background-image: linear-gradient( rgb(180, 211, 209), rgb(145, 201, 197), rgb(92, 128, 192)), ;
-  background-size: 400%;
-  overscroll-behavior: none;
+  background-image: linear-gradient(rgb(220, 235, 234), rgb(145, 201, 197), rgb(92, 128, 192));
+  background-size: 12;
+  overscroll-behavior: auto;
 }
 
 /* preloader */
