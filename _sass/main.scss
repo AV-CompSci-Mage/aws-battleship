@@ -3,16 +3,16 @@
 // color scheme - Navy and Ivory by hal - https://terminal.sexy/#Ahsh6N_WAyw2wkVOfL-einpjLjNA_1h5RLWx8vG5Bl9z71hHotmxvrCQYXeN_5mhntnY9vbJ
 
 :root {
-  --background-color: rgb(81, 110, 161);
-  --foreground-color: rgb(178, 179, 218);
+  --background-color: rgb(6,66,115);
+  --foreground-color: rgb(127,205,255);
   --foreground-color-transparent: rgba(0, 100, 125, 0.50);
-  --text-color: rgb(240, 240, 240);
-  --link-color: rgb(104, 110, 166);
-  --link-color-transparent: rgba(52, 124, 174, 0.25);
-  --success-color: rgb(74, 112, 24);
+  --text-color: rgb(222,243,246);
+  --link-color: rgb(118,182,196);
+  --link-color-transparent: rgba(29,162,216);
+  --success-color: rgb(169,218,255);
   --info-color: rgb(233, 227, 142);
-  --warn-color: rgb(225, 177, 125);
-  --danger-color: rgb(250, 50, 125);
+  --warn-color: rgb(238, 176, 62);
+  --danger-color: rgb(250, 97, 153);
   --red-shift: rgba(255, 0, 0, 0.75);
   --blue-shift: rgba(0, 0, 255, 0.75);
 }
@@ -168,8 +168,8 @@ body {
 }
 
 #loader {
-  height: 10rem;
-  width: 10rem;
+  height: 20rem;
+  width: 20rem;
 }
 
 // content
