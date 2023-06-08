@@ -8,7 +8,7 @@
   --foreground-color-transparent: rgba(90, 160, 186, 0.537);
   --text-color: rgb(222,243,246);
   --link-color: rgb(6,66,115);
-  --link-color-transparent: rgba(6, 66, 115, 0.443);
+  --link-color-transparent: rgba(6, 66, 115);
   --success-color: rgb(29,162,216);
   --info-color: rgb(233, 227, 142);
   --warn-color: rgb(238, 176, 62);
@@ -143,7 +143,7 @@ body {
   text-shadow:
     0.50px 0.50px 0.01rem var(--blue-shift),
     -0.50px -0.50px 0.01rem var(--red-shift);
-  background: linear-gradient(rgb(187, 217, 214), rgb(115, 192, 199), 
+  background: linear-gradient(rgb(211, 231, 229), rgb(115, 192, 199), 
   rgb(109, 169, 195), rgb(22, 107, 168));
   overscroll-behavior: auto;
 }
