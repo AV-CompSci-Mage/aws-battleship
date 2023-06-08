@@ -4,8 +4,7 @@ baseurl: ''
 permalink: /:title/
 
 title: 'Battleship'
-subtitle: '<a href="https://jekyllrb.com/">#Jekyll</a> <a href="https://www.tumblr.com/search/seapunk">#Seapunk</a> <a href="https://int10h.org/oldschool-pc-fonts/fontlist/#ibmmda">#Terminal</a>'
-description: 'A Seapunk flavored Jekyll theme inspired by retro terminals.'
+description: 'A website documenting our LAB 6 project.'
 
 # build
 highlighter: rouge
