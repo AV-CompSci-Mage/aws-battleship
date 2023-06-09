@@ -141,8 +141,8 @@ body {
   height: 100%;
   color: var(--text-color);
   text-shadow:
-    0.50px 0.50px 0.01rem var(--link-color);
-  background: linear-gradient(rgb(220, 206, 189),rgb(218, 232, 231), rgb(93, 156, 162), 
+    0.50px 0.50px 0.01rem rgb(9, 45, 71);
+  background: linear-gradient(rgb(227, 217, 205),rgb(218, 232, 231), rgb(93, 156, 162), 
   rgb(87, 133, 152), rgb(16, 78, 123));
   overscroll-behavior: auto;
 }
