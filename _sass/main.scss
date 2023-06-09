@@ -3,7 +3,7 @@
 // color scheme - Navy and Ivory by hal - https://terminal.sexy/#Ahsh6N_WAyw2wkVOfL-einpjLjNA_1h5RLWx8vG5Bl9z71hHotmxvrCQYXeN_5mhntnY9vbJ
 
 :root {
-  --background-color: rgb(121, 178, 178);
+  --background-color: rgb(193, 230, 225);
   --foreground-color: rgb(90, 160, 186);
   --foreground-color-transparent: rgba(90, 160, 186, 0.537);
   --text-color: rgb(247, 254, 255);
@@ -142,8 +142,8 @@ body {
   color: var(--text-color);
   text-shadow:
     1px 1px 0.00rem rgb(9, 45, 71);
-  background: linear-gradient(rgb(248, 229, 198),rgb(253, 250, 245),rgb(107, 148, 148), rgb(72, 118, 120), 
-  rgb(31, 103, 132), rgb(52, 99, 137));
+  background: linear-gradient(rgb(245, 230, 205),rgb(253, 250, 245),rgb(114, 177, 177), rgb(105, 174, 177), 
+  rgb(38, 137, 176), rgb(49, 112, 163));
   overscroll-behavior: auto;
 }
 
