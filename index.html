@@ -7,6 +7,7 @@ layout: homepage
     <p>The <a href="https://github.com/AV-CompSci-Mage/AV-CompSci-Mage.github.io" target="_blank">AWS Battleship Project</a>
     is my partner, Brad Childs', and I, Alyssa Vallejo's, final project for EEC 172, for the University of California Davis. This project
     uses Amazon Web Services (AWS) to enable a multi-player version of Battleship between two boards with CC3200 Launchpads and OLED screens.</p>
+    <img src="assets/images/pages/about/random.jpg" alt="completed board, not on" style="width:500px;height:600px;">
 </section>
 <section>
     <h1>Features & Implementation</h1>
@@ -16,6 +17,7 @@ layout: homepage
     <li>OLED screens display the game, and a remote is used as a controller</li>
     <li>All game information is posted to the AWS shadow and pulled, allowing fast game play</li>
     </ul>
+    <img src="assets/images/pages/about/features.jpg" alt="ship placement screen" style="width:500px;height:600px;">
     <h2>Implementation</h2>
     <p>Over the past quarter, my partner and I have been working with these CC3200 Launchpads and OLEDs. In the lab assignment before this, 
         we were tasked with using a remote and an AWS account to enable multip-tap texting from the board to an email. Using the hardware from that lab,
@@ -36,7 +38,7 @@ layout: homepage
         Player 1 has no more ships and that Player 1 loses. This will then be sent back to the AWS shadow and when Player 2's board pulls from the shadow, it will know that they have 
         won. Player 1 then gets text that says "You Lose" and Player 2 gets text that says "You Win".
     </p>
-
+    <img src="assets/images/pages/about/implementation.jpg" alt="Brad working on board" style="width:500px;height:600px;">
 </section>
 <section>
     <h1>Demo Video</h1>
@@ -45,7 +47,21 @@ layout: homepage
 </section>
 <section>
     <h1>Errors & Bugs</h1>
+    <p>No particular bugs or errors were encountered. However, one issue we ran into was the slow response between the boards and the AWS shadow. Even on the 
+        highest speed the processor can handle, and the game still takes around 5-10 minutes to complete. Another issue we were not able to fix was allowing two 
+        remotes to be decoded to each board. There were some complications with one of the remotes, so we opted to just use one. 
+    </p>
 </section>
 <section>
     <h1>Resources</h1>
+    <h2>Hardware Infosheets</h2>
+    <ul style=“list-style-type:circle”>
+    <li><a href="assets/pdfs/IR Receive Datasheet.pdf">IR Receive Datasheet</a></li>
+    <li><a href="assets/pdfs/CC3200 Technical References Manual.pdf">CC3200 Launchpad Manual</a></li>
+    <li><a href="assets/pdfs/mcp3001.pdf">MCP SPI Manual</a></li>
+    </ul>
+    <h2>Source Code</h2>
+    <ul style=“list-style-type:circle”>
+    <li><a href="https://github.com/AV-CompSci-Mage/AV-CompSci-Mage.github.io">Github</a></li>
+    </ul>
 </section>
