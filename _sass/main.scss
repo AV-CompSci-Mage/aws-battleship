@@ -6,7 +6,7 @@
   --background-color: rgb(180, 213, 211);
   --foreground-color: rgb(90, 160, 186);
   --foreground-color-transparent: rgba(90, 160, 186, 0.537);
-  --text-color: rgb(222,243,246);
+  --text-color: rgb(240, 252, 254);
   --link-color: rgb(6,66,115);
   --link-color-transparent: rgba(6, 66, 115, 0.379);
   --success-color: rgb(29,162,216);
@@ -142,7 +142,7 @@ body {
   color: var(--text-color);
   text-shadow:
     0.50px 0.50px 0.01rem rgb(9, 45, 71);
-  background: linear-gradient(rgb(227, 217, 205),rgb(218, 232, 231), rgb(93, 156, 162), 
+  background: linear-gradient(rgb(245, 242, 238),rgb(227, 217, 205),rgb(218, 232, 231), rgb(93, 156, 162), 
   rgb(87, 133, 152), rgb(16, 78, 123));
   overscroll-behavior: auto;
 }
