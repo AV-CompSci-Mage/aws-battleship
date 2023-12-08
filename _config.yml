@@ -11,7 +11,7 @@ highlighter: rouge
 exclude: ['LICENSE', 'README.md']
 
 # theme
-theme: jekyll-theme-jekyll-piratesec
+theme: jekyll-theme-minimal
 featured-height: 200 # featured image height; options: intiger, default: false (300px)
 
 # pixelate.js - class="pixelate", pixelateAll overides all settings
